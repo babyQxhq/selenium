@@ -55,7 +55,7 @@ class LoginFunction(object):
             self.driver.close()
 
 if __name__ == '__main__':
-    #多浏览器循环
+    #多浏览器循环000
     for i in range(3):
         login_function=LoginFunction('http://www.maiziedu.com/',i)
         login_function.main()
