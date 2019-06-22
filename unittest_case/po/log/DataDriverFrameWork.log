@@ -1,0 +1,142 @@
+2019-06-20 13:10:47 TestMail126AddContacts.py[line:38] INFO 测试为126邮箱添加联系人执行开始...
+2019-06-20 13:11:05 TestMail126AddContacts.py[line:61] INFO 启动浏览器，访问126邮箱主页...
+2019-06-20 13:11:37 TestMail126AddContacts.py[line:138] DEBUG 数据驱动框架主程序发生异常，异常信息为:Traceback (most recent call last):
+  File "/Users/roseboy/Desktop/unittest_case/po/DataDriverFrameWork/testScripts/TestMail126AddContacts.py", line 70, in test126MailAddContacts
+    logging.info(u'用户%s登录后，断言页面关键字"收 信"成功' %useername)
+NameError: name 'useername' is not defined
+
+2019-06-20 13:12:27 TestMail126AddContacts.py[line:38] INFO 测试为126邮箱添加联系人执行开始...
+2019-06-20 13:12:34 TestMail126AddContacts.py[line:61] INFO 启动浏览器，访问126邮箱主页...
+2019-06-20 13:13:24 TestMail126AddContacts.py[line:138] DEBUG 数据驱动框架主程序发生异常，异常信息为:Traceback (most recent call last):
+  File "/Users/roseboy/Desktop/unittest_case/po/DataDriverFrameWork/testScripts/TestMail126AddContacts.py", line 70, in test126MailAddContacts
+    logging.info(u'用户%s登录后，断言页面关键字"收 信"成功' %useername)
+NameError: name 'useername' is not defined
+
+2019-06-20 13:18:49 TestMail126AddContacts.py[line:38] INFO 测试为126邮箱添加联系人执行开始...
+2019-06-20 13:18:56 TestMail126AddContacts.py[line:61] INFO 启动浏览器，访问126邮箱主页...
+2019-06-20 13:18:59 TestMail126AddContacts.py[line:138] DEBUG 数据驱动框架主程序发生异常，异常信息为:Traceback (most recent call last):
+  File "/Users/roseboy/Desktop/unittest_case/po/DataDriverFrameWork/testScripts/TestMail126AddContacts.py", line 70, in test126MailAddContacts
+    logging.info(u'用户%s登录后，断言页面关键字"收件箱"成功' %useername)
+NameError: name 'useername' is not defined
+
+2019-06-20 13:19:07 TestMail126AddContacts.py[line:38] INFO 测试为126邮箱添加联系人执行开始...
+2019-06-20 13:19:14 TestMail126AddContacts.py[line:61] INFO 启动浏览器，访问126邮箱主页...
+2019-06-20 13:20:57 TestMail126AddContacts.py[line:138] DEBUG 数据驱动框架主程序发生异常，异常信息为:Traceback (most recent call last):
+  File "/Users/roseboy/Desktop/unittest_case/po/DataDriverFrameWork/testScripts/TestMail126AddContacts.py", line 70, in test126MailAddContacts
+    logging.info(u'用户%s登录后，断言页面关键字"收件箱"成功' %useername)
+NameError: name 'useername' is not defined
+
+2019-06-20 13:21:31 TestMail126AddContacts.py[line:38] INFO 测试为126邮箱添加联系人执行开始...
+2019-06-20 13:21:37 TestMail126AddContacts.py[line:61] INFO 启动浏览器，访问126邮箱主页...
+2019-06-20 13:23:18 TestMail126AddContacts.py[line:38] INFO 测试为126邮箱添加联系人执行开始...
+2019-06-20 13:23:25 TestMail126AddContacts.py[line:61] INFO 启动浏览器，访问126邮箱主页...
+2019-06-20 13:23:39 TestMail126AddContacts.py[line:109] INFO 添加联系人zhangsan@126.com成功
+2019-06-20 13:23:39 TestMail126AddContacts.py[line:122] INFO 断言关键字zhangsan@126.com成功
+2019-06-20 13:23:44 TestMail126AddContacts.py[line:109] INFO 添加联系人lisi@126.com成功
+2019-06-20 13:23:44 TestMail126AddContacts.py[line:122] INFO 断言关键字里斯成功
+2019-06-20 13:23:48 TestMail126AddContacts.py[line:109] INFO 添加联系人wangba@126.com成功
+2019-06-20 13:23:48 TestMail126AddContacts.py[line:122] INFO 断言关键字wangba@126.com成功
+2019-06-20 13:23:48 TestMail126AddContacts.py[line:132] INFO 为用户xhq11093添加3个联系人，3个成功
+
+2019-06-20 13:26:37 TestMail126AddContacts.py[line:38] INFO 测试为126邮箱添加联系人执行开始...
+2019-06-20 13:26:44 TestMail126AddContacts.py[line:61] INFO 启动浏览器，访问126邮箱主页...
+2019-06-20 13:26:47 TestMail126AddContacts.py[line:138] DEBUG 数据驱动框架主程序发生异常，异常信息为:Traceback (most recent call last):
+  File "/Users/roseboy/Desktop/unittest_case/po/DataDriverFrameWork/testScripts/TestMail126AddContacts.py", line 69, in test126MailAddContacts
+    assert u"收件箱" in driver.page_source
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/roseboy/Desktop/unittest_case/po/DataDriverFrameWork/testScripts/TestMail126AddContacts.py", line 73, in test126MailAddContacts
+    u"异常信息:%s" %(useername,str(traceback.format_exc())))
+NameError: name 'useername' is not defined
+
+2019-06-20 13:26:53 TestMail126AddContacts.py[line:38] INFO 测试为126邮箱添加联系人执行开始...
+2019-06-20 13:27:00 TestMail126AddContacts.py[line:61] INFO 启动浏览器，访问126邮箱主页...
+2019-06-20 13:27:03 TestMail126AddContacts.py[line:138] DEBUG 数据驱动框架主程序发生异常，异常信息为:Traceback (most recent call last):
+  File "/Users/roseboy/Desktop/unittest_case/po/DataDriverFrameWork/testScripts/TestMail126AddContacts.py", line 69, in test126MailAddContacts
+    assert u"收件箱" in driver.page_source
+AssertionError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/roseboy/Desktop/unittest_case/po/DataDriverFrameWork/testScripts/TestMail126AddContacts.py", line 73, in test126MailAddContacts
+    u"异常信息:%s" %(useername,str(traceback.format_exc())))
+NameError: name 'useername' is not defined
+
+2019-06-20 14:25:10 TestMail126AddContacts.py[line:38] INFO 测试为126邮箱添加联系人执行开始...
+2019-06-20 14:25:16 TestMail126AddContacts.py[line:61] INFO 启动浏览器，访问126邮箱主页...
+2019-06-20 14:28:08 TestMail126AddContacts.py[line:110] INFO 添加联系人zhangsan@126.com成功
+2019-06-20 14:28:08 TestMail126AddContacts.py[line:123] INFO 断言关键字zhangsan@126.com成功
+2019-06-20 14:28:13 TestMail126AddContacts.py[line:110] INFO 添加联系人lisi@126.com成功
+2019-06-20 14:28:13 TestMail126AddContacts.py[line:123] INFO 断言关键字里斯成功
+2019-06-20 14:28:17 TestMail126AddContacts.py[line:110] INFO 添加联系人wangba@126.com成功
+2019-06-20 14:28:17 TestMail126AddContacts.py[line:123] INFO 断言关键字wangba@126.com成功
+2019-06-20 14:28:17 TestMail126AddContacts.py[line:133] INFO 为用户xhq11093添加3个联系人，3个成功
+
+2019-06-20 14:29:35 TestMail126AddContacts.py[line:38] INFO 测试为126邮箱添加联系人执行开始...
+2019-06-20 14:29:42 TestMail126AddContacts.py[line:61] INFO 启动浏览器，访问126邮箱主页...
+2019-06-20 14:30:19 TestMail126AddContacts.py[line:110] INFO 添加联系人zhangsan@126.com成功
+2019-06-20 14:30:19 TestMail126AddContacts.py[line:123] INFO 断言关键字zhangsan@126.com成功
+2019-06-20 14:30:23 TestMail126AddContacts.py[line:110] INFO 添加联系人lisi@126.com成功
+2019-06-20 14:30:23 TestMail126AddContacts.py[line:123] INFO 断言关键字里斯成功
+2019-06-20 14:30:27 TestMail126AddContacts.py[line:110] INFO 添加联系人wangba@126.com成功
+2019-06-20 14:30:28 TestMail126AddContacts.py[line:123] INFO 断言关键字wangba@126.com成功
+2019-06-20 14:30:28 TestMail126AddContacts.py[line:133] INFO 为用户xhq11093添加3个联系人，3个成功
+
+2019-06-20 14:40:49 TestMail126AddContacts.py[line:38] INFO 测试为126邮箱添加联系人执行开始...
+2019-06-20 14:40:55 TestMail126AddContacts.py[line:61] INFO 启动浏览器，访问126邮箱主页...
+2019-06-20 14:44:45 TestMail126AddContacts.py[line:70] INFO 用户xhq11093登录后，断言页面关键字'收件箱'成功
+2019-06-20 14:44:50 TestMail126AddContacts.py[line:110] INFO 添加联系人zhangsan@126.com成功
+2019-06-20 14:44:50 TestMail126AddContacts.py[line:123] INFO 断言关键字zhangsan@126.com成功
+2019-06-20 14:44:54 TestMail126AddContacts.py[line:110] INFO 添加联系人lisi@126.com成功
+2019-06-20 14:44:54 TestMail126AddContacts.py[line:123] INFO 断言关键字里斯成功
+2019-06-20 14:44:59 TestMail126AddContacts.py[line:110] INFO 添加联系人wangba@126.com成功
+2019-06-20 14:44:59 TestMail126AddContacts.py[line:123] INFO 断言关键字wangba@126.com成功
+2019-06-20 14:44:59 TestMail126AddContacts.py[line:133] INFO 为用户xhq11093添加3个联系人，3个成功
+
+2019-06-20 14:45:47 TestMail126AddContacts.py[line:38] INFO 测试为126邮箱添加联系人执行开始...
+2019-06-20 14:48:38 TestMail126AddContacts.py[line:61] INFO 启动浏览器，访问126邮箱主页...
+2019-06-20 14:48:38 TestMail126AddContacts.py[line:139] DEBUG 数据驱动框架主程序发生异常，异常信息为:Traceback (most recent call last):
+  File "/Users/roseboy/Desktop/unittest_case/po/DataDriverFrameWork/testScripts/TestMail126AddContacts.py", line 65, in test126MailAddContacts
+    LoginAction.login(driver, username,password)
+  File "/Users/roseboy/Desktop/unittest_case/po/DataDriverFrameWork/appModules/LoginAction.py", line 17, in login
+    raise e
+  File "/Users/roseboy/Desktop/unittest_case/po/DataDriverFrameWork/appModules/LoginAction.py", line 10, in login
+    login.loginWay().click()
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 80, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webelement.py", line 633, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementNotInteractableException: Message: element not interactable
+  (Session info: chrome=75.0.3770.100)
+
+
+2019-06-20 14:48:57 TestMail126AddContacts.py[line:38] INFO 测试为126邮箱添加联系人执行开始...
+2019-06-20 14:49:03 TestMail126AddContacts.py[line:61] INFO 启动浏览器，访问126邮箱主页...
+2019-06-20 14:49:38 TestMail126AddContacts.py[line:70] INFO 用户xhq11093登录后，断言页面关键字'收件箱'成功
+2019-06-20 14:49:43 TestMail126AddContacts.py[line:110] INFO 添加联系人zhangsan@126.com成功
+2019-06-20 14:49:43 TestMail126AddContacts.py[line:123] INFO 断言关键字zhangsan@126.com成功
+2019-06-20 14:49:47 TestMail126AddContacts.py[line:110] INFO 添加联系人lisi@126.com成功
+2019-06-20 14:49:47 TestMail126AddContacts.py[line:123] INFO 断言关键字里斯成功
+2019-06-20 14:49:52 TestMail126AddContacts.py[line:110] INFO 添加联系人wangba@126.com成功
+2019-06-20 14:49:52 TestMail126AddContacts.py[line:123] INFO 断言关键字wangba@126.com成功
+2019-06-20 14:49:52 TestMail126AddContacts.py[line:133] INFO 为用户xhq11093添加3个联系人，3个成功
+
+2019-06-20 14:56:41 TestMail126AddContacts.py[line:38] INFO 测试为126邮箱添加联系人执行开始...
+2019-06-20 14:56:47 TestMail126AddContacts.py[line:61] INFO 启动浏览器，访问126邮箱主页...
+2019-06-20 14:57:23 TestMail126AddContacts.py[line:70] INFO 用户xhq11093登录后，断言页面关键字'收件箱'成功
+2019-06-20 14:57:28 TestMail126AddContacts.py[line:110] INFO 添加联系人zhangsan@126.com成功
+2019-06-20 14:57:28 TestMail126AddContacts.py[line:123] INFO 断言关键字zhangsan@126.com成功
+2019-06-20 14:57:32 TestMail126AddContacts.py[line:110] INFO 添加联系人lisi@126.com成功
+2019-06-20 14:57:32 TestMail126AddContacts.py[line:123] INFO 断言关键字里斯成功
+2019-06-20 14:57:37 TestMail126AddContacts.py[line:110] INFO 添加联系人wangba@126.com成功
+2019-06-20 14:57:37 TestMail126AddContacts.py[line:123] INFO 断言关键字wangba@126.com成功
+2019-06-20 14:57:37 TestMail126AddContacts.py[line:133] INFO 为用户xhq11093添加3个联系人，3个成功
+
